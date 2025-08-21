@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Your Name — Portfolio</title>
+<meta name="description" content="Your name — resume, portfolio, blog, tools, and shop." />
+<link rel="preload" href="styles.css" as="style" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<a href="#home" class="brand">Your Name</a>
+<nav class="nav">
+<a href="#home">Home</a>
+<a href="#resume">Resume</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#blog">Blog</a>
+<a href="#tools">Tools</a>
+<a href="#feed">Newsfeed</a>
+<a href="#shop">Shop</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<!-- Home -->
+<section id="home" class="section">
+<h1>Hi, I'm Your Name 👋</h1>
+<p>Short bio — what you do, what you love, and what you’re looking for.</p>
+<div class="cta-row">
+<a class="btn" href="#resume">View Resume</a>
+<a class="btn btn-ghost" href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+<a class="btn btn-ghost" href="mailto:you@yourdomain.com">Contact</a>
+</div>
+</section>
+
+
+<!-- Resume -->
+<section id="resume" class="section">
+<h2>Resume</h2>
+<p>Drop a concise summary here. Link to a PDF and show highlights.</p>
+<ul class="resume-highlights">
+<li><strong>Role @ Company</strong> — one‑line impact statement (YYYY–YYYY)</li>
+<li><strong>Another Role</strong> — key achievement with numbers</li>
+<li><strong>Education</strong> — school, degree</li>
+</ul>
+<p><a class="btn" href="/Your_Name_Resume.pdf" target="_blank" rel="noopener">Download PDF</a></p>
+</section>
+
+
+<!-- Portfolio -->
+<section id="portfolio" class="section">
+<h2>Portfolio</h2>
+<div id="projects" class="grid"></div>
+</section>
+
+
+<!-- Blog -->
+<section id="blog" class="section">
+<h2>Blog</h2>
+<div id="blog-list" class="stack"></div>
+<p class="muted">Posts are simple HTML files in <code>/posts</code>. Add more files and list them in <code>data/posts.json</code>.</p>
+</section>
+
+
+<!-- Tools -->
+<section id="tools" class="section">
+<h2>Custom Tools</h2>
+<ul id="tools-list" class="list"></ul>
+<p class="muted">Put standalone tools in <code>/tools</code> and list them in <code>data/projects.json</code> under <code>tools</code>.</p>
+</section>
+
+
+<!-- Feed -->
+<section id="feed" class="section">
+<h2>Newsfeed</h2>
+<div id="feed-items" class="stack"></div>
+<p class="muted">Configure your GitHub username in <code>scripts/app.js</code> to show recent public activity. Works client‑side.</p>
+</section>
+
+
+<!-- Shop -->
+<section id="shop" class="section">
+<h2>Merch Shop</h2>
+<p>Host products on Gumroad/Ko‑fi/Printful and link or embed here. Example:</p>
+<p><a class="btn" href="/shop/" rel="noopener">Open Shop</a></p>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<p>© <span id="year"></span> Your Name · <a href="/feed/feed.html">RSS</a></p>
+</div>
+</footer>
+
+
+<script src="scripts/app.js" defer></script>
+</body>
+</html>

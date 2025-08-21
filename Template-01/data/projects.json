@@ -1,0 +1,25 @@
+{
+"projects": [
+{
+"name": "Project One",
+"summary": "Short description of what it does and why it’s cool.",
+"tags": ["javascript", "demo"],
+"demo": "https://yourdomain.com/tools/sample-tool.html",
+"repo": "https://github.com/yourusername/project-one"
+},
+{
+"name": "Project Two",
+"summary": "Another highlight with a live demo and source.",
+"tags": ["python", "api"],
+"demo": "https://example.com",
+"repo": "https://github.com/yourusername/project-two"
+}
+],
+"tools": [
+{
+"name": "Sample Tool",
+"summary": "A tiny no-build calculator demo.",
+"path": "/tools/sample-tool.html"
+}
+]
+}
